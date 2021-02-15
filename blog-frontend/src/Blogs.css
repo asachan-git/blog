@@ -1,0 +1,14 @@
+.app__blogs {
+    width: inherit;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 30px 0px 20px 0px;
+    justify-content: space-around;
+    place-items: center;
+    border-bottom: 1px lightgray solid;
+    min-width: 500px;
+}
+
+

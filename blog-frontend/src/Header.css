@@ -1,0 +1,46 @@
+:root {
+    --gold: goldenrod;
+}
+.app__header {
+    /* background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.championdigitaldesign.com%2Fphotos%2Fsports%2Fgreenscreen%2Fcs%2Flg%2Fcsgs_maroon.jpg&f=1&nofb=1"); */
+    /* background-repeat: repeat; */
+    color: #D1E8E2;
+    background-color: #116466;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 0 10px;
+    /* border-bottom: 1px solid #AAA; */
+    box-shadow: 0px 0.2px 10px rgb(190, 190, 190);
+    z-index: 1000;
+    min-width: 500px;
+    
+}
+
+.app__header > p {
+    margin-left: 25%;
+}
+
+.app__headerRight {
+    display: flex;
+    place-items: center;
+    margin-right: 25%;
+}
+
+.app__headerRight > p {
+    margin-right: 10px;
+}
+
+.app__headerLoginBtn {
+    background-color: gray;
+    width: 80px;
+    color: var(--gold);
+    font-size: 15px;
+    border: 1px gray solid;
+    border-radius: 4px;
+    padding: 3px;
+}
+

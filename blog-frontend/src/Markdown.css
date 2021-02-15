@@ -1,0 +1,66 @@
+.app__markdown {
+    display: flex;
+
+}
+
+.app__markdownButton {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    color: black;
+    border-right: 3px rgb(247, 177, 143) solid;
+    height: 100vh;
+    /* background-color: rgb(245, 214, 136); */
+}
+
+.app__markdownButton > button {
+    margin: 10px;
+    margin-left: 0px;
+    color: #00539CFF;
+    background-color: #EEA47FFF;
+    border-radius: 5px;
+    padding: 5px;
+    border: none
+}
+
+.app__markdownButton > button:hover {
+    background-color: #00539CFF;
+    color: #EEA47FFF;
+}
+
+.app__markdownForms {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+}
+
+.app__markdownForm {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 10px;
+}
+
+.app__markdownForm > label {
+    padding-left: 10px;
+    color: gray;
+    /* background-color: red; */
+}
+
+.app__markdownForm > input {
+    border: 1px #00539CFF solid; 
+    border-radius: 20px;
+    height: 30px;
+    outline: none;
+    padding-left: 20px;
+    /* color: red; */
+}
+
+.app__markdownFormContent > button {
+    width: 100px;
+    margin-left: 10px;
+    height: 30px;
+}
